@@ -5,7 +5,7 @@ describe('commons', () => {
     expect(commons.add(1, 1)).toEqual(2);
   });
 
-  // test('subtraction', () => {
-  //   expect(commons.subtraction(1, 1)).toEqual(0);
-  // });
+  test('subtraction', () => {
+    expect(commons.subtraction(1, 1)).toEqual(0);
+  });
 });
