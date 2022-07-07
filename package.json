@@ -6,7 +6,8 @@
     "dev": "vite",
     "build": "tsc && vite build",
     "preview": "vite preview",
-    "test": "jest"
+    "test": "jest",
+    "testCoverage": "jest --collectCoverage"
   },
   "devDependencies": {
     "@babel/core": "^7.18.6",
